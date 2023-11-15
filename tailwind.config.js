@@ -17,6 +17,9 @@ module.exports = {
         veryDarkGrayishBlueText: "hsl(221, 14%, 31%)",
         whiteText: "hsl(0, 0%, 100%)",
       },
+      fontFamily: {
+        sans: ["League Spartan", "sans-serif"],
+      },
     },
   },
   plugins: [],
