@@ -24,7 +24,7 @@ function App() {
   return (
     <div>
       <div className="bg-mainBackground h-screen flex flex-col space-y-3 p-4 justify-center items-center">
-        <div className=" min-w-[600px]">
+        <div className="w-full md:max-w-[550px]">
           <div className="flex justify-between w-full bg-orange-500 py-3 mb-2">
             <h1 className=" text-whiteText font-bold text-2xl font-sans">
               Calc
@@ -34,10 +34,10 @@ function App() {
               <input type="checkbox" />
             </div>
           </div>
-          <div className="flex justify-end bg-screenBackground py-7 rounded-lg text-3xl font-bold text-white px-3 mb-2">
+          <div className="flex justify-end bg-screenBackground py-7 rounded-lg text-3xl font-bold text-white pr-5 mb-2">
             <h1 className="font-sans">455,981</h1>
           </div>
-          <div className=" grid py-5 rounded-xl grid-cols-4 grid-rows-5 gap-5 bg-yellow-600 p-3">
+          <div className=" grid p-5 rounded-xl grid-cols-4 grid-rows-5 gap-5 bg-toggleBackground custom_shadow">
             {buttons.map((button) => (
               <Button button={button} />
             ))}
